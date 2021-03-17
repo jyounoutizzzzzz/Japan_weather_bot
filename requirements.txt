@@ -1,0 +1,6 @@
+Django==*.*.*
+line-bot-sdk==*.*.*
+gunicorn==*.*.*
+django-heroku==*.*.*
+psycopg2-binary==*.*.*
+requests==*.*.*

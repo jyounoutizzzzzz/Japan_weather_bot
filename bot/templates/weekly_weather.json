@@ -1,0 +1,1247 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "東京都",
+          "weight": "bold",
+          "color": "#4169e1",
+          "size": "md"
+        },
+        {
+          "type": "text",
+          "text": "一週間の天気",
+          "weight": "bold",
+          "size": "xl",
+          "margin": "sm"
+        },
+        {
+          "type": "separator",
+          "margin": "md"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_1 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_1 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_1 }}℃/最低{{ min_1 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_1 }}℃/昼{{ eve_1 }}℃/夜{{ night_1 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_1 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_1 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_1 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_1 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_1 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_2 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_2 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_2 }}℃/最低{{ min_2 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_2 }}℃/昼{{ eve_2 }}℃/夜{{ night_2 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_2 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_2 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_2 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_2 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_2 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_3 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_3 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_3 }}℃/最低{{ min_3 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_3 }}℃/昼{{ eve_3 }}℃/夜{{ night_3 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_3 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_3 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_3 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_3 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_3 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_4 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_4 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_4 }}℃/最低{{ min_4 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_4 }}℃/昼{{ eve_4 }}℃/夜{{ night_4 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_4 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_4 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_4 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_4 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_4 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_5 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_5 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_5 }}℃/最低{{ min_5 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_5 }}℃/昼{{ eve_5 }}℃/夜{{ night_5 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_5 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_5 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_5 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_5 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_5 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_6 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_6 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_6 }}℃/最低{{ min_6 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_6 }}℃/昼{{ eve_6 }}℃/夜{{ night_6 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_6 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_6 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_6 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_6 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_6 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "separator",
+              "margin": "xxl"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "xxl",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "text": "{{ day_7 }}",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ text_7 }}",
+                  "size": "sm",
+                  "color": "#4682b4",
+                  "align": "center",
+                  "margin": "none",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "気温",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "margin": "none"
+                },
+                {
+                  "type": "text",
+                  "text": "最高{{ max_7 }}℃/最低{{ min_7 }}℃",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetEnd": "xxl"
+                }
+              ],
+              "spacing": "none",
+              "margin": "sm"
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "朝{{ moring_7 }}℃/昼{{ eve_7 }}℃/夜{{ night_7 }}℃",
+                  "color": "#111111",
+                  "size": "sm",
+                  "align": "center",
+                  "offsetTop": "none",
+                  "offsetStart": "xl"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "湿度",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ humidity_7 }}%",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風向",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ deg_7 }}",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "風速",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ speed_7 }}m/s",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "降水量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "flex": 0,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ rain_7 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "降雪量",
+                  "size": "sm",
+                  "color": "#555555",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                },
+                {
+                  "type": "text",
+                  "text": "{{ snow_7 }}㎜/日",
+                  "size": "sm",
+                  "color": "#111111",
+                  "align": "center",
+                  "offsetStart": "sm",
+                  "position": "relative"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "styles": {
+      "footer": {
+        "separator": true
+      }
+    }
+  }

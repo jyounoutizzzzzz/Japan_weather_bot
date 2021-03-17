@@ -1,0 +1,529 @@
+{
+  "type": "bubble",
+  "size": "mega",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "24時間の天気",
+        "size": "lg",
+        "weight": "bold",
+        "decoration": "none",
+        "color": "#4169e1",
+        "offsetTop": "lg",
+        "wrap": true,
+        "adjustMode": "shrink-to-fit",
+        "flex": 0,
+        "margin": "md"
+      },
+      {
+        "type": "text",
+        "text": "2時間おきの天気と温度",
+        "margin": "none",
+        "weight": "bold",
+        "size": "sm",
+        "position": "relative",
+        "align": "start",
+        "wrap": true,
+        "offsetTop": "xl",
+        "color": "#aaaaaa"
+      },
+      {
+        "type": "separator",
+        "margin": "xl"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 1_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 1_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 1_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 2_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 2_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 2_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 3_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 3_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 3_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 4_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 4_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 4_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 5_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 5_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 5_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 6_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 6_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 6_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 7_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 7_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 7_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 8_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 8_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 8_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 9_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 9_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 9_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 10_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 10_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 10_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 11_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold"
+          },
+          {
+            "type": "text",
+            "text": "{{ 11_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute"
+          },
+          {
+            "type": "text",
+            "text": "{{ 11_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "text",
+            "text": "{{ 12_ }}",
+            "position": "relative",
+            "align": "start",
+            "weight": "bold",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 12_text }}",
+            "flex": 0,
+            "margin": "none",
+            "align": "center",
+            "wrap": true,
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "offsetStart": "none",
+            "offsetEnd": "none",
+            "position": "absolute",
+            "color": "#777777"
+          },
+          {
+            "type": "text",
+            "text": "{{ 12_temp }}℃",
+            "offsetEnd": "none",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none",
+            "align": "end",
+            "position": "absolute",
+            "wrap": true,
+            "color": "#777777"
+          }
+        ],
+        "spacing": "none",
+        "margin": "lg"
+      }
+    ],
+    "backgroundColor": "#ffffff",
+    "offsetBottom": "xxl",
+    "borderWidth": "bold",
+    "cornerRadius": "none"
+  }
+}

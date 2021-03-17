@@ -1,0 +1,361 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "{{ text }}",
+        "weight": "bold",
+        "size": "lg",
+        "margin": "md",
+        "color": "#4169e1"
+      },
+      {
+        "type": "text",
+        "text": "{{ city_title }}",
+        "weight": "bold",
+        "size": "xxl",
+        "margin": "md"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "日の出",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "{{ sunrise }}",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "日の入り",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          },
+          {
+            "type": "text",
+            "text": "{{ sunset }}",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "xxl",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "気温",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ temp }}℃",
+                "size": "sm",
+                "color": "#111111",
+                "margin": "none",
+                "position": "absolute",
+                "offsetTop": "none",
+                "offsetBottom": "none",
+                "offsetStart": "none",
+                "offsetEnd": "xxl",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "体感気温",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ feels_like }}℃",
+                "size": "sm",
+                "color": "#111111",
+                "margin": "none",
+                "position": "absolute",
+                "offsetEnd": "xxl",
+                "offsetStart": "none",
+                "offsetBottom": "none",
+                "offsetTop": "none",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "最高気温",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ temp_max }}℃",
+                "size": "sm",
+                "color": "#111111",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "最低気温",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ temp_min }}℃",
+                "size": "sm",
+                "color": "#111111",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "湿度",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ humidity }}%",
+                "size": "sm",
+                "color": "#111111",
+                "margin": "none",
+                "position": "absolute",
+                "offsetEnd": "xxl",
+                "offsetStart": "none",
+                "offsetBottom": "none",
+                "offsetTop": "none",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "風向",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ wind_deg }}",
+                "size": "sm",
+                "color": "#111111",
+                "align": "center"
+              },
+              {
+                "type": "text",
+                "text": "風速",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0
+              },
+              {
+                "type": "text",
+                "text": "{{ wind_speed }}m/s",
+                "size": "sm",
+                "color": "#111111",
+                "align": "center"
+              }
+            ]
+          },
+          {
+            "type": "separator",
+            "margin": "xxl"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "margin": "xxl",
+            "contents": [
+              {
+                "type": "text",
+                "text": "現在から24時間の間に予測される",
+                "size": "sm",
+                "color": "#555555",
+                "flex": 0,
+                "margin": "xs"
+              }
+            ]
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "text",
+                "text": "降水量",
+                "size": "sm",
+                "color": "#555555"
+              },
+              {
+                "type": "text",
+                "text": "{{ rain }}mm",
+                "size": "sm",
+                "color": "#111111",
+                "flex": 0,
+                "align": "center",
+                "position": "absolute",
+                "offsetEnd": "xxl",
+                "offsetStart": "none",
+                "offsetBottom": "none",
+                "offsetTop": "none"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "降雪量",
+            "size": "sm",
+            "color": "#555555"
+          },
+          {
+            "type": "text",
+            "text": "{{ snow }}mm",
+            "size": "sm",
+            "color": "#111111",
+            "flex": 0,
+            "align": "center",
+            "position": "absolute",
+            "offsetEnd": "xxl",
+            "offsetStart": "none",
+            "offsetBottom": "none",
+            "offsetTop": "none"
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "margin": "xxl"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "margin": "md",
+        "contents": [
+          {
+            "type": "text",
+            "text": "現在地",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "{{ city_title }}",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "経度",
+            "color": "#aaaaaa",
+            "size": "xs",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "{{ city_lat }}",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "text",
+            "text": "緯度",
+            "color": "#aaaaaa",
+            "size": "xs",
+            "align": "start"
+          },
+          {
+            "type": "text",
+            "text": "{{ city_lon }}",
+            "size": "xs",
+            "color": "#aaaaaa",
+            "wrap": true
+          }
+        ]
+      }
+    ]
+  },
+  "styles": {
+    "footer": {
+      "separator": true
+    }
+  }
+}
